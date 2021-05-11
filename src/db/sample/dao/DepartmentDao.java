@@ -51,5 +51,11 @@ public class DepartmentDao {
 		return list;
 	}
 	
+	// 1件取得 where句 id
 	
+	// 更新
+	
+	// 作成
+	
+	// 削除
 }
