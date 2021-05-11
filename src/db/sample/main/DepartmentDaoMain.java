@@ -1,6 +1,5 @@
 package db.sample.main;
 
-import java.util.Iterator;
 import java.util.List;
 
 import db.sample.dao.DepartmentDao;
@@ -15,6 +14,7 @@ public class DepartmentDaoMain {
 
 		for (Department department : list) {
 			System.out.println(department.getName());
+			System.out.println(department.getId());
 		}
 	}
 
